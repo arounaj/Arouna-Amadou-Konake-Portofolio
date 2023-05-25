@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  position: sticky;
+  background: border-box;
+  box-shadow: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,37,68,1) 67%, rgba(0,212,255,1) 100%);
+  top: 0;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  width: 100%;
+  margin-top: 7%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.heade {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portoo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 9rem;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-top: 2%;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.props {
+  width: 60%;
+  text-align: center;
+  margin: 10% auto;
+}
+
+.nom {
+  font-size: 2rem;
+}
