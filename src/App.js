@@ -4,6 +4,7 @@ import { Component } from 'react';
 import Porto from './component/porto';
 import frame from './Frame.svg';
 import Propos from './component/propos';
+import Compt from './component/compt';
 
 
 class Navbar extends Component{
@@ -13,19 +14,14 @@ class Navbar extends Component{
   render() {
     return(
     <div>
-      <div className='App' style={{ 
-        width: "100%",
-        display: "flex",
-        justifyContent: "space-around",
-        marginTop: "2%",
-       }}
-        >
+      <div className='App'>
         <h1>{this.state.title}</h1> 
         <Header></Header>
       </div>
       <img src={frame} className="App-logo" alt="logo" />
       <Porto></Porto>
       <Propos />
+      <Compt />
     </div>
       
     )

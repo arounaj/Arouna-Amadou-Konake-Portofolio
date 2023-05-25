@@ -1,4 +1,7 @@
 .App {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
   text-align: center;
   position: sticky;
   background: border-box;
@@ -63,4 +66,27 @@
 
 .nom {
   font-size: 2rem;
+}
+.compta{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+
+
+}
+
+.compta img{
+  width: 250px;
+  animation: rotate 8s linear infinite;
+}
+
+
+@keyframes rotate{
+  0%{
+      transform: perspective(1000px) rotateY(0deg);
+  }
+  100%{
+      transform: perspective(1000px) rotateY(360deg);
+  }
 }
