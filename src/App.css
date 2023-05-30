@@ -96,3 +96,27 @@
       transform: perspective(1000px) rotateY(360deg);
   }
 }
+.propor{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.minus{
+  width: 20%;
+  border: solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+}
+.minus img{
+  width: 53%;
+  padding: 21% 20% ;
+  
+}
+
+.minus p{
+  font-size: 70%;
+}

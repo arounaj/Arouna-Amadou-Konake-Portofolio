@@ -5,6 +5,7 @@ import { Porto } from './component/porto';
 import  frame  from './Frame.svg';
 import { Propos } from './component/propos';
 import { Compt } from './component/compt';
+import { Projets } from './component/projets';
 
 
 
@@ -23,6 +24,9 @@ class Navbar extends Component{
       <Porto></Porto>
       <Propos />
       <Compt />
+      <div className='min'>
+        <Projets />
+      </div>
     </div>
       
     )
