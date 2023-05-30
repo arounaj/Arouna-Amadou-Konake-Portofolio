@@ -1,10 +1,11 @@
-import Header from './component/header';
+import React, { Component } from 'react';
+import { Header } from './component/header';
 import './App.css';
-import { Component } from 'react';
-import Porto from './component/porto';
-import frame from './Frame.svg';
-import Propos from './component/propos';
-import Compt from './component/compt';
+import { Porto } from './component/porto';
+import  frame  from './Frame.svg';
+import { Propos } from './component/propos';
+import { Compt } from './component/compt';
+
 
 
 class Navbar extends Component{
@@ -15,7 +16,7 @@ class Navbar extends Component{
     return(
     <div>
       <div className='App'>
-        <h1>{this.state.title}</h1> 
+        <h1> {this.state.title} </h1>
         <Header></Header>
       </div>
       <img src={frame} className="App-logo" alt="logo" />
@@ -28,5 +29,5 @@ class Navbar extends Component{
    
   }
 }
+ export default Navbar
 
-export default Navbar;

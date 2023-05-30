@@ -1,8 +1,8 @@
 import { Component } from "react";
 import '/Users/aroun/portofolio/src/App.css';
-import Nom from "./nom";
+import { Nom } from "./nom";
 
-class Nav extends Component {
+export class Nav extends Component {
     
     render() {
     return(
@@ -17,4 +17,3 @@ class Nav extends Component {
     }
 }
 
-export default Nav;

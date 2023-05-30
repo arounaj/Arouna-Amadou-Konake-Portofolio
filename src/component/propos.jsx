@@ -1,6 +1,6 @@
 import '/Users/aroun/portofolio/src/App.css';
 
-const propos  = () => {
+export const Propos  = () => {
     return (
         <div className='props'>
             <h2 className='nom'>Etudiant-Développeur Web</h2>
@@ -16,4 +16,3 @@ l'opportunité de vous rencontrer.</p>
     )
 }
 
-export default propos ;

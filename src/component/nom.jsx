@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 
-class Nom extends Component {
+export class Nom extends Component {
   render() {
     return (
         <h1>{this.props.title}</h1>
     )
   }
 }
-
-export default Nom;

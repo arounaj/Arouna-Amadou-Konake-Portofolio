@@ -70,17 +70,23 @@
 .compta{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  flex-direction: row;
+  width: 80%;
   justify-content: space-around;
-
+  margin: 5% auto;
 
 }
 
 .compta img{
-  width: 250px;
+  width: 200px;
   animation: rotate 8s linear infinite;
+  padding: 5%;
 }
-
+.compte{
+  color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,37,68,1) 67%, rgba(0,212,255,1) 100%);
+  width: 100%;
+  text-align: center;
+}
 
 @keyframes rotate{
   0%{
