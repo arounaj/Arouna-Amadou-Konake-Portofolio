@@ -103,8 +103,9 @@
 }
 
 .minus{
+  padding: 2% 2%;
   width: 20%;
-  border: solid;
+  border: solid #61dafb;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -118,5 +119,26 @@
 }
 
 .minus p{
-  font-size: 70%;
+  font-size: 1rem;
+}
+.proj{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.minn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+
+
+}
+.minn:hover{
+  color: goldenrod;
 }
