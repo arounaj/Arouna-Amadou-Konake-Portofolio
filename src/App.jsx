@@ -6,6 +6,7 @@ import  frame  from './Frame.svg';
 import { Propos } from './component/propos';
 import { Compt } from './component/compt';
 import { Projets } from './component/projets';
+import { Resaux } from './component/reseauxs';
 
 
 
@@ -26,6 +27,7 @@ class Navbar extends Component{
       <Compt />
       <div className='min'>
         <Projets />
+        <Resaux />
       </div>
     </div>
       

@@ -111,6 +111,7 @@
   flex-direction: column;
   justify-content: center;
     align-items: center;
+    background-color: #a04fab;
 }
 .minus img{
   width: 53%;
@@ -141,4 +142,27 @@
 }
 .minn:hover{
   color: goldenrod;
+}
+
+.parar{
+  position: relative;
+  bottom: 9%;
+}
+.resaux img {
+  width: 57%;
+}
+.resaux a{
+ 
+  width: 10%;
+}
+
+.resaux{
+  margin-top: 4%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4c1e52;
+  box-shadow:  20px 20px 11px #311435,
+             -20px -20px 11px #67296f;
 }
